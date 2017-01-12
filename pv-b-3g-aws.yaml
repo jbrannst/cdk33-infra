@@ -7,6 +7,7 @@ spec:
     storage: "3Gi"
   accessModes:
     - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
   awsElasticBlockStore:
     fsType: "ext4"
     volumeID: "vol-0362753d94ee15939"
